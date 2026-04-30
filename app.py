@@ -49,4 +49,4 @@ if start_button:
         axis=0)
     st.session_state['df_experiment_results'] = st.session_state['df_experiment_results'].reset_index(drop=True)
 
-st.write(st.session_state['df_experiment_results']) funcional. En construcción.')
+st.write(st.session_state['df_experiment_results'])
